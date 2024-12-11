@@ -4,38 +4,34 @@
         <meta charset="UTF-8" />
         <title>lab.10</title>
         <link href="lab10.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
     
         
     
             <header><h1> <img src="2.png" id="p"></a>Джутсу</h1>
-                <nav>
-                <ul>
-                    <li><a href="https://kinogo-films.biz/467-tau.html">аниме</a></li>
-                    <li><a href="https://www.sputnik8.com/ru/almaty/sights/bolshoe-almatinskoe-ozero/info?ysclid=m49b0es335852356893">Бачира</a></li>
-                    <li><a href="https://bigenc.ru/c/tian-shan-2b7d06">сайттар &bigtriangledown;</a>
-                        <ul>
-                            <li><a href="https://2gis.kz/almaty/geo/70030076174918843">ван пис</a></li>
-                            <li><a href="https://2gis.kz/almaty">сайттар</a></li>
-                            <li><a href="https://kolsaitrip.kz/bolshoye-almatinskoye-ozero-bao?ysclid=m49b1wc5zt640179606">адемы</a></li>
-                        </ul>
+
+                <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                    <li class="nav-item" role="presentation">
+                      <a href="https://jut.su/"><button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button></a>
                     </li>
-                    <li><a href="https://kinogo-films.biz/467-tau.html">Джутсу</a></li>
-                
-      
-                            <li><a href="https://2gis.kz/almaty/geo/70030076174918843">чигири</a></li>
-                            <li><a href="https://2gis.kz/almaty">хиро</a></li>
-                            <li><a href="https://kolsaitrip.kz/bolshoye-almatinskoye-ozero-bao?ysclid=m49b1wc5zt640179606">аниме суреттер </a></li>
-                        </ul>
-                        </nav>
+                    <li class="nav-item" role="presentation">
+                      <a href="https://jut.su/"><button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button></a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                     <a href="https://jut.su/"> <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button></a>
+                    </li>
+                  </ul>
             </header>
+            
+              
             <div class="menu-button" onclick="toggleMenu()">☰</div>
             <div class="sidebar" id="sidebar">
-                <a href="#home">Басты бет</a>
-                <a href="#about">Біз туралы</a>
-                <a href="#services">Қызметтер</a>
-                <a href="#contact">Байланыс</a>
+                <a href="https://jut.su/">Сайттар</a>
+                <a href="https://jut.su/">Джутсу</a>
+                <a href="https://jut.su/">Аилиберия</a>
+                <a href="https://jut.su/">аниме</a>
             </div>
         
             <script>
@@ -78,11 +74,62 @@
                     <div class="progress red" style="width: 80%;"></div>
                 </div>
             </section>
+            <p class="text-primary">.text-primary</p>
+<p class="text-secondary">.text-secondary</p>
+<p class="text-success">.text-success</p>
+<p class="text-danger">.text-danger</p>
+<p class="text-warning bg-dark">.text-warning</p>
+<p class="text-info bg-dark">.text-info</p>
+<p class="text-light bg-dark">.text-light</p>
+<p class="text-dark">.text-dark</p>
+<p class="text-body">.text-body</p>
+<p class="text-muted">.text-muted</p>
+<p class="text-white bg-dark">.text-white</p>
+<p class="text-black-50">.text-black-50</p>
+<p class="text-white-50 bg-dark">.text-white-50</p>
             </article>
             <aside>
                 <a href="https://jut.su/sword-arts-online/"><img src="5.png" class="askar"></a><p>Сао бул 2016 жылы шыккан аниме бул аниме вертуалный реалност  туралы аниме</p>
                 <a href="https://jut.su/oneepiece"><img src="6.png" class="askar"></a><p>Ван пис бул 1998 жылы шыккан аниме бул пираттар турралы аниме </p>
                 <a href="https://jut.su/bookofd/"><img src="7.png" class="askar"></a><p>Тэтрад смепти бул уайт туралы мануплатция туралы жанеде оте кызык аниме </p>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
         </aside>
        
 <!--         
@@ -94,11 +141,50 @@
               
         </nav> -->
      
-            <footer><img src="2.png" id="p">Джутсу.com
+            <!-- <footer><img src="2.png" id="p">Джутсу.com
                 <p><input type="email"></p>
                 
-        </footer>
+        </footer> -->
        
         </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://avatars.mds.yandex.net/i?id=507e6a8ff3e9d8d09493cb1867fa39959815fd75565fe33c-13469218-images-thumbs&n=13" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://avatars.mds.yandex.net/i?id=507e6a8ff3e9d8d09493cb1867fa39959815fd75565fe33c-13469218-images-thumbs&n=13" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
